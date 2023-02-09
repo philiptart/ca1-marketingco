@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* header-styles for the company name and div */
+
+header {
+    /* width: 100%;
+    padding: 20px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+
+    display: inline-block;
+    padding: 20px;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* header-styles for the navigation menu */
+
+header nav{
+    padding-top: 35px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header-styles for main hero image before main content */
+
+figure .hero {
+    display: block;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+/* main-services styles for div alignment */
+
+main .services .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+main .services .float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* main-services styles */
+
+main .services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main .services .search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* main-services-search engines optimisation styles */
+
+main .services .search-engine-optimization img {
+    max-height: 200px;
+}
+
+main .services .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* main-services-online reputation management styles */
+
+main .services .online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main .services .online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+main .services .online-reputation-management img {
+    max-height: 200px;
+}
+
+/* main-services-social media management styles */
+
+main .services .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main .services .social-media-marketing img {
+    max-height: 200px;
+}
+
+main .services .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* main-aside.benefit styles */
+
+main aside.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* main-aside-benefits styles image icons and divs */
+
+aside .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside .benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside .benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside .benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+aside .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+aside .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
