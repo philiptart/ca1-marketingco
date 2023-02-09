@@ -4,7 +4,7 @@
 
 Refactoring provided html/css pages to meet semantic HTML 5.0, accessibility, logical, and SEO accessibility standards.
 
-## GitLab Repository
+## GitLab Repository (Cloining Link)
 
 ```bash
 git@github.com:philiptart/ca1-marketingco.git
